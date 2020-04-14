@@ -2,8 +2,8 @@ html,body {
     width:100vw;
     height: 100vh;
     margin: 0;
-    overflow-x: hidden;
 }
+
 
 
 /*===========HEADER START============*/
@@ -59,6 +59,7 @@ header video {
     z-index: 110;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    height: auto;
 }
 
 
@@ -138,8 +139,10 @@ header{
 
 /*For general in section */
 section{
-    margin: 20px 0;
-    padding: 20px 0;
+    overflow: hidden;
+/*    margin: 20px 0;*/
+    padding: 60px 0;
+    text-align: center;
 }
 
 .section-title{
@@ -163,6 +166,7 @@ h3, h4{
 
 .section2{
     background-color:#eee; 
+   
 }
 
 .section2 a {
@@ -175,5 +179,18 @@ h3, h4{
     border-radius: 5px;
     color: #fff !important;
 }
+
+
+.section3 img{ 
+    padding: 12px 0;
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+    
+}
+
+
+
+
 
 
