@@ -2,7 +2,7 @@ html,body {
     width:100vw;
     height: 100vh;
     margin: 0;
-   
+    scroll-behavior: smooth;
     
 }
 
@@ -104,11 +104,12 @@ header video {
 }
 
 
+
 /*NAVBAR BACKGROUND COLOR FOR LESS THAN 991PX WIDTH SCREEN*/
 @media (max-width: 991px) {
     .navbar {
         background-color: #563e91 !important;
-    }
+    }    
 }
 
 
